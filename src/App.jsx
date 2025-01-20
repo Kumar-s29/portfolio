@@ -30,7 +30,7 @@ function App() {
     document.documentElement.classList.toggle("dark", savedMode);
 
     console.log("Dark Mode Loaded:", savedMode);
-  }, []);
+  }, [darkMode]);
 
   return (
     <div className="min-h-screen transition-colors duration-300 bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-50">
