@@ -35,14 +35,14 @@ function App() {
   return (
     <div className="min-h-screen transition-colors duration-300 bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-50">
       {/* Dark Mode Toggle Button */}
-      <button
+{/*       <button
         onClick={toggleDarkMode}
         className="fixed top-4 right-4 p-2 rounded-full bg-gray-200 dark:bg-gray-800 hover:bg-gray-300 dark:hover:bg-gray-700 transition-colors duration-200"
         title="Toggle dark mode"
         aria-label="Toggle dark mode"
       >
         {darkMode ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
-      </button>
+      </button> */}
 
       {/* Navigation */}
       <Navigation />
